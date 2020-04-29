@@ -1,0 +1,1 @@
+# paralelas_simulador-promedio-psu-secuencial-y-omp
