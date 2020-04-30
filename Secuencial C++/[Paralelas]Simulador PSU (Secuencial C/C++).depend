@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1588197413 source:c:\users\usuario\desktop\c++)\[paralelas]simulador psu (secuencial c\main.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+
