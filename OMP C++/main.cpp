@@ -12,9 +12,9 @@ int main(int argc, char *argv[])
     int nemn,rankingn,matematicasn,lenguajen,cienciasn,historian;
     int promedio, total_ruts=;
     
-    if(argc==2)
+    if(argc==1)
     {
-        cout<<"Erro. Direccion del archivo no enviada\n\nCerrando APP por motivos de seguridad"<<endl;
+        cout<<"Error. Direccion del archivo no enviada\n\nCerrando APP por motivos de seguridad"<<endl;
         exit(1)
     }
     
