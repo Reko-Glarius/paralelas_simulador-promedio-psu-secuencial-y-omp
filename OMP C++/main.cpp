@@ -31,6 +31,7 @@ int main(int argc, char *argv[])
         #pragma omp for private(rut,nem,ranking,matematicas,lenguaje,ciencias,historia,linea,nemn,rankingn,matematicasn,lenguajen,cienciasn,historian,promedio,i)
             for(i=0;i<5015750;i++)
             {
+                getline(archivo,linea);
                 stringstream line(linea);
                 getline(line,rut,';');
                 getline(line,nem,';');
