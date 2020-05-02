@@ -1,4 +1,6 @@
-# Preguntas 1 y 3 taller 1 computacion paralela UTEM
+# Taller 1 computacion paralela UTEM
+
+Integrantes: Ricardo Aliste G.\nRodrigo Carmona R.\nDaniel Cajas
 
 # Descripcion del problemas:
 problema 1:
