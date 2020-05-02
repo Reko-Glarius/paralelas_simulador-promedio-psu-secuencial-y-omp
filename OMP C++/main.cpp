@@ -15,7 +15,8 @@ int main(int argc, char *argv[])
     if(argc==1)
     {
         cout<<"Error. Direccion del archivo no enviada\n\nCerrando APP por motivos de seguridad"<<endl;
-        exit(1)
+        exit(1);
+
     }
     
     ifstream archivo(argv[1]);
