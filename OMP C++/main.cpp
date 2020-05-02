@@ -27,8 +27,8 @@ int main(int argc, char *argv[])
     std::ofstream archivo_salida("promedios.csv");
 #pragma omp parallel
     {
-        #pragma omp for
-            for(;getline(archivo,linea);)
+        #pragma omp for private(rut,nem,ranking,matematicas,lenguaje,ciencias,historia,linea,nemn,rankingn,matematicasn,lenguajen,cienciasn,historian,promedio,i)
+            for(i=0;i<5015750;i++)
             {
                 stringstream line(linea);
                 getline(line,rut,';');
