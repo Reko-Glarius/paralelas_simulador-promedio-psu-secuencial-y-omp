@@ -8,11 +8,17 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    std::string rut,nem,ranking,matematicas,lenguaje,ciencias,historia,linea;
+    std::string rut,nem,ranking,matematicas,lenguaje,ciencias,historia,linea; 
     int nemn,rankingn,matematicasn,lenguajen,cienciasn,historian;
-    float promedio;
-
-    ifstream archivo("C:\\Users\\Usuario\\Desktop\\C++)\\[Paralelas]Simulador PSU (Secuencial C\\archivo.csv");
+    int promedio, total_ruts=;
+    
+    if(argc==2)
+    {
+        cout<<"Erro. Direccion del archivo no enviada\n\nCerrando APP por motivos de seguridad"<<endl;
+        exit(1)
+    }
+    
+    ifstream archivo(argv[1]);
     if(!archivo.good())
     {
         cout<<"Archivo ingresado de manera erronea, recuerde que debe enviarse con doble '\' para reconocer la direccion"<<endl;
