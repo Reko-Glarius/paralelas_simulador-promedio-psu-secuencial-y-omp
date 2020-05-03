@@ -8,9 +8,10 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    std::string rut,nem,ranking,matematicas,lenguaje,ciencias,historia,linea; 
+
+    std::string rut,nem,ranking,matematicas,lenguaje,ciencias,historia,linea;
     int nemn,rankingn,matematicasn,lenguajen,cienciasn,historian;
-    int promedio, total_ruts=;
+    int promedio,i,total=5015750;
     
     if(argc==1)
     {
@@ -28,10 +29,11 @@ int main(int argc, char *argv[])
     std::ofstream archivo_salida("promedios.csv");
 #pragma omp parallel
     {
-        #pragma omp for private(rut,nem,ranking,matematicas,lenguaje,ciencias,historia,linea,nemn,rankingn,matematicasn,lenguajen,cienciasn,historian,promedio,i)
+        #pragma omp for  private(rut,nem,ranking,matematicas,lenguaje,ciencias,historia,linea,nemn,rankingn,matematicasn,lenguajen,cienciasn,historian,promedio,i)
+        
             for(i=0;i<5015750;i++)
             {
-                getline(archivo,linea);
+            	getline(archivo,linea);
                 stringstream line(linea);
                 getline(line,rut,';');
                 getline(line,nem,';');
