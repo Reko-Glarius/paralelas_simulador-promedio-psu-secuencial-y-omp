@@ -22,6 +22,4 @@ problema 3:
 Se requiere hacer lo mismo que en problema 1, con la diferencia de que es necesario implementarlo de manera paralelizada mediante el uso de OMP (Open MP)
 
 # Aclaraciones:
-1)Debido a la manera en la que funciona C/C++ a la hjora de usar direcciones, a la hora de mandar la direccion mediante argumentos, es necesario poner 2 veces el slash ("/") para que se reconosca este direccionamiento.
-
-2)En el caso del archivo dart, este tambien genera los puntajes aleatorios y el archivo que contiene estos.
+1)En el caso del archivo dart, este tambien genera los puntajes aleatorios y el archivo que contiene estos.
